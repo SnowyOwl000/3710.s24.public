@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\newif\ifshadedsectiontitles
+\shadedsectiontitlestrue
+
+\newcommand{\semester}{Spring}
+\newcommand{\cyear}{2024}
+\newcommand{\crn}{20779}
+\newcommand{\homeworknum}{2}
+\newcommand{\duedate}{Monday, February 26, 2024}
+
+\input{\doccommon}
+
+\begin{document}
+
+\input{\doccourse/3710.header.tex}
+
+\chead{Homework \homeworknum}
+
+{\large Homework \homeworknum}\\
+\emph{Due date: \duedate}\\
+
+\begin{list}{\textbf{\arabic{enumi}}}{\usecounter{enumi}
+    \setlength{\itemsep}{0.25in}}
+
+    \section{Part I. 10 points each.}
+
+    \input{\doccontent/R8/Ch03/3-2-24.tex}
+
+    \input{\doccontent/R8/Ch04/sup-4-16.tex}
+
+    \input{\doccontent/R8/Ch04/sup-4-20.tex}
+
+    \input{\doccontent/R8/Ch04/sup-4-34.tex}
+
+    \input{\doccontent/R8/Ch04/4-4-20.tex}
+
+    \input{\doccontent/R8/Ch04/4-4-21-mod.tex}
+
+    \newpage
+    
+    \input{\doccontent/R8/Ch03/sup-3-16.tex}
+
+    \input{\doccontent/R8/Ch03/sup-3-18.tex}
+
+    \input{\doccontent/R8/Ch03/sup-3-20.tex}
+
+    %\newpage
+    \section{Part II. 20 points each.}
+
+    \input{\doccontent/R8/Ch04/sup-4-28.tex}
+
+    \input{\doccontent/R8/Ch04/4-4-18.tex}
+
+    \newpage
+
+    \input{\doccontent/R8/Ch04/4-4-14.tex}
+\end{list}
+
+\end{document}

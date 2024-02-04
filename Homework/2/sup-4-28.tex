@@ -1,0 +1,34 @@
+\item\problemnumber{4}{Supplemental}{28 (corrected)}{-}{-}
+\begin{list}{\textbf{\alph{enumii}.}}{\usecounter{enumii}}
+\item Show that if $a$ and $b$ are positive integers with $a\ge b$, then
+\[
+\gcd(a,b)=\begin{cases}
+a & \textrm{if\ }$a=b$\\
+\gcd(a,b)=2\cdot\gcd(a/2,b/2) & \textrm{if\ }a\textrm{\ and\ }b\textrm{\ are
+even}\\
+\gcd(a,b)=\gcd(a/2,b) & \textrm{if\ }a\textrm{\ is even and\ }b\textrm{\ is
+odd}\\
+\gcd(a,b)=\gcd(a,b/2) & \textrm{if\ }a\textrm{\ is odd and\ }b\textrm{\ is
+even}\\
+\gcd(a,b)=\gcd(a-b,b) & \textrm{if\ }a\textrm{\ and\ }b\textrm{\ are
+odd}\\
+\end{cases}
+\]
+\item Explain how to use part (a) to construct an algorithm for computing the
+greatest common divisor of two positive integers that uses only comparisons,
+subtractions and shifts of binary expansions, without using any divisions.
+\item Find $\gcd(1202,4808)$ using this algorithm.
+\end{list}
+\vskip12pt
+\ifanswers
+\textcolor{blue}{
+\textbf{Answer:}\\[6pt]
+Answer goes here. I've included the framework for parts a, b and c.
+\begin{list}{\textbf{\alph{enumii}.}}{\usecounter{enumii}}
+  \item Part a answer
+  \item Part b answer 
+  \item Part c answer
+\end{list}
+}
+\newpage
+\fi
