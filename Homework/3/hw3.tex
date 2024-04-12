@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\newif\ifshadedsectiontitles
+\shadedsectiontitlestrue
+
+\newcommand{\semester}{Spring}
+\newcommand{\cyear}{2024}
+\newcommand{\crn}{20866}
+\newcommand{\homeworknum}{3}
+\newcommand{\duedate}{Monday, April 15, 2024}
+
+\input{\doccommon}
+
+\begin{document}
+
+\input{\doccourse/3710.header.tex}
+
+\chead{Homework \homeworknum}
+
+{\large Homework \homeworknum}\\
+\emph{Due date: \duedate}\\
+
+\begin{list}{\textbf{\arabic{enumi}}}{\usecounter{enumi}
+\setlength{\itemsep}{0.25in}}
+
+\section{Part I. 10 points each.}
+
+% 5-20
+\input{\doccontent/R8/Ch05/sup-5-20.tex}
+
+% 5-42
+\input{\doccontent/R8/Ch05/sup-5-42.tex}
+
+% 5-58
+\input{\doccontent/R8/Ch05/sup-5-58.tex}
+
+% 6-10
+\input{\doccontent/R8/Ch06/sup-6-10.tex}
+
+% 6-18
+\input{\doccontent/R8/Ch06/sup-6-18.tex}
+
+\newpage
+% 6-28
+\input{\doccontent/R8/Ch06/sup-6-28.tex}
+
+% 6-44
+\input{\doccontent/R8/Ch06/sup-6-44.tex}
+
+
+\section{Part II. 20 points each.}
+
+% 5-44 (part 2)
+\input{\doccontent/R8/Ch05/sup-5-44.tex}
+
+\newpage
+% towers of hanoi
+\input{\doccontent/Other/hanoi.tex}
+
+% 6-48 (part 2)
+\input{\doccontent/R8/Ch06/sup-6-48.tex}
+
+\newpage
+% 6-50 (part 2, do this before 48)
+\input{\doccontent/R8/Ch06/sup-6-50.tex}
+
+\end{list}
+
+\end{document}
