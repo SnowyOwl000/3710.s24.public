@@ -1,0 +1,53 @@
+\documentclass{article}
+
+\newif\ifshadedsectiontitles
+\shadedsectiontitlestrue
+
+\newcommand{\semester}{Spring}
+\newcommand{\cyear}{2024}
+\newcommand{\crn}{20779}
+\newcommand{\homeworknum}{4}
+\newcommand{\duedate}{Tuesday, April 30, 2024}
+
+\input{\doccommon}
+
+%\usepackage{tikz}
+\usetikzlibrary{arrows.meta,arrows}
+
+\begin{document}
+
+\input{\doccourse/3710.header.tex}
+
+\chead{Homework \homeworknum}
+
+{\large Homework \homeworknum}\\
+\emph{Due date: \duedate}\\
+
+\begin{list}{\textbf{\arabic{enumi}}}{\usecounter{enumi}
+\setlength{\itemsep}{0.25in}}
+
+\section{Part I. 15 points each.}
+
+\input{\doccontent/R8/Ch07/sup-7-12.tex}
+
+\input{\doccontent/R8/Ch07/sup-7-18.tex}
+
+\input{\doccontent/R8/Ch07/sup-7-20.tex}
+
+\input{\doccontent/R8/Ch07/sup-7-24.tex}
+
+\input{\doccontent/R8/Ch07/sup-7-32.tex}
+
+\input{\doccontent/R8/Ch08/sup-8-6.tex}
+
+\input{\doccontent/R8/Ch08/sup-8-12.tex}
+
+\input{\doccontent/R8/Ch08/sup-8-34.tex}
+
+\input{\doccontent/R8/Ch08/sup-8-38.tex}
+
+\input{\doccontent/R8/Ch08/8-6-18.tex}
+
+\end{list}
+
+\end{document}
